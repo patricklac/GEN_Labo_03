@@ -35,3 +35,8 @@ dans notre cas: `mvn clean test`
 ## Labo 3 - Exécution en parallèle - Threads
 
 ### Introduction – Intégration continue avec Travis
+
+## banque
+
+faire une classe transfert 
+faire une classe de test pour transfert

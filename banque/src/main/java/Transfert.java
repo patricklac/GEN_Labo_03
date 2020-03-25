@@ -21,9 +21,7 @@ public class Transfert implements Runnable {
             int montant = random.nextInt(100);
             int crediteur = random.nextInt(banque.getNbComptes());
             int debiteur = random.nextInt(banque.getNbComptes());
-            synchronized (banque) {
-                banque.transfert(debiteur, crediteur, montant);
-            }
+            banque.transfert(debiteur, crediteur, montant);
         }
     }
 }

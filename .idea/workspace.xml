@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8acbdb8f-59ee-4ca8-a179-a1395461a0a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GEN_Labo_03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Controleur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Lecteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Redacteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/src/test/java/LecteursRedacteursTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque/src/main/java/Banque.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/Banque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque/src/main/java/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/Compte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque/src/main/java/Transfert.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/Transfert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +42,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -177,9 +184,10 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1058" y="224" key="#Project_Structure" timestamp="1585142125183">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="301" y="106" key="#Project_Structure" timestamp="1585155913852">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="301" y="106" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585155913852" />
     <state x="1058" y="224" key="#Project_Structure/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585142125183" />
     <state x="1128" y="215" key="#Project_Structure/0.0.2048.1112@0.0.2048.1112" timestamp="1585135150264" />
     <state x="765" y="289" key="#com.intellij.ide.util.MemberChooser" timestamp="1585144400581">
@@ -195,30 +203,35 @@
     </state>
     <state x="840" y="158" key="CommitChangelistDialog2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585147517422" />
     <state x="1055" y="151" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1585135204377" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1585148043061">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585155287544">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585155287544" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585148043061" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1585148043061">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585155287544">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585155287544" />
     <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585148043061" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1585148043061">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585155287543">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585155287543" />
     <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585148043061" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1585148043061">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585155287544">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585155287544" />
     <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585148043061" />
     <state x="1058" y="301" key="Vcs.Push.Dialog.v2" timestamp="1585147519811">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1058" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585147519811" />
     <state x="1128" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1585135210190" />
-    <state x="91" y="252" width="1235" height="629" key="new project wizard" timestamp="1585141175691">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="73" y="179" width="988" height="472" key="new project wizard" timestamp="1585155657376">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="73" y="179" width="988" height="472" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585155657376" />
     <state x="91" y="252" width="1235" height="629" key="new project wizard/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585141175691" />
   </component>
 </project>

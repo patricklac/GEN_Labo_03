@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8acbdb8f-59ee-4ca8-a179-a1395461a0a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GEN_Labo_03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Controleur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Lecteur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Redacteur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/src/test/java/LecteursRedacteursTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Accesseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Lecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Lecteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Redacteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/LecteurRedacteur/src/main/java/Redacteur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

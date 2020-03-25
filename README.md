@@ -34,4 +34,13 @@ dans notre cas: `mvn clean test`
 
 ## Labo 3 - Exécution en parallèle - Threads
 
-### Introduction – Intégration continue avec Travis
+### Introduction – Intégration continue avec Travis 
+
+## banque & thread
+
+faire une classe transfert 
+faire une classe de test pour transfert
+
+état inconsistent recréer dans `dev1`
+
+dans `dev2` on  résouds le problème au moyen de bloc `synchronized`

@@ -1,8 +1,9 @@
 # GEN_Labo_03
 GEN Labo 03
 
+## intégration continue
 
-## partie 1 - intégration continue mise en place de maven
+### partie 1 - intégration continue mise en place de maven
 
 procédure effectuée:
 
@@ -11,7 +12,8 @@ procédure effectuée:
 3. ajout du `.travis.yml` 
 4. ajout d'un projet vide maven en ayant adapté le pom.xml pour avoir les dependances de test
 5. ajout d'une classe d'example pour verifier le bon fonctionnement du build qui se lance apres avoir push
-6.  
+6. nous pouvons egalement voir que les notifications de mail arrivent par e-mail
+
 
 ### note concernant le fichier `.travys.yml` :
 
@@ -26,5 +28,7 @@ sert à accelerer le build
 `script: "mvn ..."` pour lancer nos scripts maven
 dans notre cas: `mvn clean test`
 
-## partie 2 - protection avec les status de Travis CI
+### partie 2 - protection avec les status de Travis CI
+
+1. etablissement de la regle permettant de verifier status travis avant de merge dans l'onglet `Braches` des parametre du repo
 

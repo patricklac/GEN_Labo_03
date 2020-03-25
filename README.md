@@ -32,3 +32,6 @@ dans notre cas: `mvn clean test`
 
 1. etablissement de la regle permettant de verifier status travis avant de merge dans l'onglet `Braches` des parametre du repo
 
+## Labo 3 - Exécution en parallèle - Threads
+
+### Introduction – Intégration continue avec Travis

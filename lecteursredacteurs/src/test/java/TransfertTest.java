@@ -1,12 +1,21 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
 import static org.junit.jupiter.api.Assertions.fail;
 
 public class TransfertTest {
 
+    private Banque banqueTest;
+    private Random random;
+
     @BeforeEach
     void setUp() {
+        banqueTest = new Banque(10);
+        random = new Random();
     }
 
     /**
@@ -16,8 +25,13 @@ public class TransfertTest {
      */
     @Test
     void test1000TransfertInBanqueOf10Accounts() {
-        // TODO: implement me
-        fail("not implemented");
+        final int NB_TRANSFERE = 1000;
+        ArrayList<Transfert> transferts = new ArrayList<Transfert>();
+        for (int i = 0; i < NB_TRANSFERE; ++i) {
+            var transfert = new Transfert(banqueTest);
+            transferts.add(transfert);
+            new Thread(transfert).start();
+        }
     }
 
 }

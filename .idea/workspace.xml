@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8acbdb8f-59ee-4ca8-a179-a1395461a0a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banque/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/main/java/Banque.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/Banque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/main/java/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/Compte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/main/java/Transfert.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/Transfert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/test/java/TransfertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/test/java/TransfertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banque/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque/src/test/java/TransfertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/test/java/TransfertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585135066573</updated>
-      <workItem from="1585135073383" duration="8658000" />
+      <workItem from="1585135073383" duration="8759000" />
     </task>
     <task id="LOCAL-00001" summary="example class">
       <created>1585135205748</created>
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585146395299</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="package + directory renamed">
+      <created>1585146644978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585146644978</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +146,8 @@
     <MESSAGE value="prepare banque tests" />
     <MESSAGE value="test Transfert&#10; + implement runnable Transfert&#10; + implements test with runnable&#10; + throw exception if not consistent" />
     <MESSAGE value="test Transfert&#10; + assert consistent" />
-    <option name="LAST_COMMIT_MESSAGE" value="test Transfert&#10; + assert consistent" />
+    <MESSAGE value="package + directory renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="package + directory renamed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1058" y="224" key="#Project_Structure" timestamp="1585142125183">
@@ -157,10 +163,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="566" y="172" key="#lecteursredacteurs_[test]/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146251522" />
-    <state x="840" y="158" key="CommitChangelistDialog2" timestamp="1585146394495">
+    <state x="840" y="158" key="CommitChangelistDialog2" timestamp="1585146644101">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="840" y="158" key="CommitChangelistDialog2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146394495" />
+    <state x="840" y="158" key="CommitChangelistDialog2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146644101" />
     <state x="1055" y="151" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1585135204377" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1585146328627">
       <screen x="0" y="0" width="1920" height="1160" />
@@ -178,10 +184,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146328627" />
-    <state x="1058" y="301" key="Vcs.Push.Dialog.v2" timestamp="1585146396536">
+    <state x="1058" y="301" key="Vcs.Push.Dialog.v2" timestamp="1585146648487">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="1058" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146396536" />
+    <state x="1058" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146648487" />
     <state x="1128" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1585135210190" />
     <state x="91" y="252" width="1235" height="629" key="new project wizard" timestamp="1585141175691">
       <screen x="0" y="0" width="1920" height="1160" />

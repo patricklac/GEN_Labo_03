@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8acbdb8f-59ee-4ca8-a179-a1395461a0a1" name="Default Changelist" comment="test Transfert&#10; + implement runnable Transfert&#10; + implements test with runnable&#10; + throw exception if not consistent">
+    <list default="true" id="8acbdb8f-59ee-4ca8-a179-a1395461a0a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lecteursredacteurs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/test/java/TransfertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecteursredacteurs/src/test/java/TransfertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banque/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/main/java/Banque.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/Banque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/main/java/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/main/java/Transfert.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/main/java/Transfert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecteursredacteurs/src/test/java/TransfertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque/src/test/java/TransfertTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
   </component>
   <component name="RunManager" selected="JUnit.TransfertTest.test1000TransfertInBanqueOf10Accounts">
     <configuration name="TransfertTest.test1000TransfertInBanqueOf10Accounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lecteursredacteurs" />
+      <module name="banque" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TransfertTest" />
       <option name="METHOD_NAME" value="test1000TransfertInBanqueOf10Accounts" />
@@ -95,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585135066573</updated>
-      <workItem from="1585135073383" duration="8349000" />
+      <workItem from="1585135073383" duration="8658000" />
     </task>
     <task id="LOCAL-00001" summary="example class">
       <created>1585135205748</created>
@@ -118,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585145662119</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test Transfert&#10; + assert consistent">
+      <created>1585146395299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585146395299</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +140,8 @@
     <MESSAGE value="example class" />
     <MESSAGE value="prepare banque tests" />
     <MESSAGE value="test Transfert&#10; + implement runnable Transfert&#10; + implements test with runnable&#10; + throw exception if not consistent" />
-    <option name="LAST_COMMIT_MESSAGE" value="test Transfert&#10; + implement runnable Transfert&#10; + implements test with runnable&#10; + throw exception if not consistent" />
+    <MESSAGE value="test Transfert&#10; + assert consistent" />
+    <option name="LAST_COMMIT_MESSAGE" value="test Transfert&#10; + assert consistent" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1058" y="224" key="#Project_Structure" timestamp="1585142125183">
@@ -146,10 +157,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="566" y="172" key="#lecteursredacteurs_[test]/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146251522" />
-    <state x="840" y="158" key="CommitChangelistDialog2" timestamp="1585145688736">
+    <state x="840" y="158" key="CommitChangelistDialog2" timestamp="1585146394495">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="840" y="158" key="CommitChangelistDialog2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585145688736" />
+    <state x="840" y="158" key="CommitChangelistDialog2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146394495" />
     <state x="1055" y="151" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1585135204377" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1585146328627">
       <screen x="0" y="0" width="1920" height="1160" />
@@ -167,10 +178,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146328627" />
-    <state x="1058" y="301" key="Vcs.Push.Dialog.v2" timestamp="1585145664856">
+    <state x="1058" y="301" key="Vcs.Push.Dialog.v2" timestamp="1585146396536">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="1058" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585145664856" />
+    <state x="1058" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.7.1920.1160@0.0.1920.1160" timestamp="1585146396536" />
     <state x="1128" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1585135210190" />
     <state x="91" y="252" width="1235" height="629" key="new project wizard" timestamp="1585141175691">
       <screen x="0" y="0" width="1920" height="1160" />

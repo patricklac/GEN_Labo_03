@@ -19,7 +19,7 @@ public class TransfertTest {
     /**
      * Dans une classe de test Junit, déclencher 1000 exécutions de la classe Transfert, chacune réalisant
      * 1000 transferts, dans une banque de 10 comptes. Ne pas traiter l’accès concurrent aux comptes par
-     * les threads pour l’instant
+     * les threads pour l’instantt
      */
     @Test
     void test1000TransfertInBanqueOf10Accounts() {
